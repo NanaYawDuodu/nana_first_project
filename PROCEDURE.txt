@@ -1,0 +1,53 @@
+
+HP@DESKTOP-A4M7RK4 MINGW64 /y/ITEC SPAI
+$ git clone https://github.com/NanaYawDuodu/nana_first_project.git
+Cloning into 'nana_first_project'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.
+
+HP@DESKTOP-A4M7RK4 MINGW64 /y/ITEC SPAI
+$ git config --global user.name "NanaYawDuodu"
+
+HP@DESKTOP-A4M7RK4 MINGW64 /y/ITEC SPAI
+$ git config --global user.email "kafalo2006@gmail.com"
+
+HP@DESKTOP-A4M7RK4 MINGW64 /y/ITEC SPAI
+$ ls
+'git commands.pdf'   nana_first_project/
+
+HP@DESKTOP-A4M7RK4 MINGW64 /y/ITEC SPAI
+$ cd nana_first_project
+
+HP@DESKTOP-A4M7RK4 MINGW64 /y/ITEC SPAI/nana_first_project (main)
+$ ls
+ README.md  'kafalo2006@gmaill.com.txt'
+
+HP@DESKTOP-A4M7RK4 MINGW64 /y/ITEC SPAI/nana_first_project (main)
+$ git add nana.txt
+
+HP@DESKTOP-A4M7RK4 MINGW64 /y/ITEC SPAI/nana_first_project (main)
+$ git commit -m "create file"
+[main 084d88e] create file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 nana.txt
+
+HP@DESKTOP-A4M7RK4 MINGW64 /y/ITEC SPAI/nana_first_project (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 268 bytes | 268.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/NanaYawDuodu/nana_first_project.git
+   5a219ea..084d88e  main -> main
+
+HP@DESKTOP-A4M7RK4 MINGW64 /y/ITEC SPAI/nana_first_project (main)
+$ ^C
+
+HP@DESKTOP-A4M7RK4 MINGW64 /y/ITEC SPAI/nana_first_project (main)
+$
